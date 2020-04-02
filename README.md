@@ -1,10 +1,5 @@
 # QYTheme
 
-[![CI Status](https://img.shields.io/travis/qiaoyoung/QYTheme.svg?style=flat)](https://travis-ci.org/qiaoyoung/QYTheme)
-[![Version](https://img.shields.io/cocoapods/v/QYTheme.svg?style=flat)](https://cocoapods.org/pods/QYTheme)
-[![License](https://img.shields.io/cocoapods/l/QYTheme.svg?style=flat)](https://cocoapods.org/pods/QYTheme)
-[![Platform](https://img.shields.io/cocoapods/p/QYTheme.svg?style=flat)](https://cocoapods.org/pods/QYTheme)
-
 ### 一、设计
 #### 1. 为什么需要Dark Mode:
 1. 让用户更好的Focus于App内展现的内容
@@ -393,12 +388,17 @@ self.view.backgroundColor = [UIColor qy_setColorWithAny:[UIColor whiteColor] dar
 ###### 参考文档:
 
 [写给设计师的指南：iOS 13 Dark Mode 深度解析](https://mp.weixin.qq.com/s/XEu7ef4DNHqNtKARMxy02Q)
+
 [Apple Design Resources
 ](https://developer.apple.com/design/resources/)
 ***
+
 [Submit Your iPhone Apps to the App Store](https://developer.apple.com/news/?id=03042020b)
+
 [Supporting Dark Mode in Your Interface](https://developer.apple.com/documentation/xcode/supporting_dark_mode_in_your_interface?changes=latest_minor&language=objc)
+
 [How To Adopt Dark Mode In Your iOS App](https://www.fivestars.blog/code/ios-dark-mode-how-to.html)
+
 [使用 QMUITheme 实现换肤并适配 iOS 13 Dark Mode
 ](https://github.com/Tencent/QMUI_iOS/wiki/%E4%BD%BF%E7%94%A8-QMUITheme-%E5%AE%9E%E7%8E%B0%E6%8D%A2%E8%82%A4%E5%B9%B6%E9%80%82%E9%85%8D-iOS-13-Dark-Mode)
 
