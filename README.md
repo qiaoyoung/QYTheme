@@ -256,6 +256,7 @@ Take advantage of Xcode features such as storyboards (including launch storyboar
 @end
 ```
 当用户更改系统外观时，系统会自动要求每个窗口和视图重绘自身。在此过程中，系统将为macOS和iOS调用下表中列出的几种众所周知的方法来更新您的内容。系统在调用这些方法之前会更新特征环境，所以只有在下列方法中获取 `traitCollection` 属性才是准确的。
+
 ![](https://upload-images.jianshu.io/upload_images/3265534-5c5c9f1eac5f6192.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
@@ -293,6 +294,7 @@ iOS默认提供了9个彩色色板(TintColor)，在iOS 13中为了保证深色�
 
 #### 4. 图片：
 * SF Symbols
+
 ![](https://upload-images.jianshu.io/upload_images/3265534-6044a3d08dd8d819.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 SF Symbols 是iOS 13中引入的一项非常重要的新特性，由于Dark Mode下所有图标都会需要两套颜色，使用静态的图片切图会让图片素材数量激增，因此苹果干脆做了这一整套1500多个图标的矢量图标库，配合iOS中的基底层与架高层、语义化颜色、Vibrancy（鲜亮化）等动态的颜色处理，使用SF Symbols可以在深浅模式中都能自动获得完美的展示效果。
@@ -322,8 +324,8 @@ UIVisualEffectView *effectView = [[UIVisualEffectView alloc] initWithEffect:effe
 
 #### 6. webView页面：
 多数流行的浏览器新版本都已经支持了“prefers-color-scheme”参数来检测系统当前的外观是浅色还是深色模式。配合利用类似Semantic Color的方法来定义网页样式表中同一个颜色在深浅两种模式下的色值，Web内容也可以获得同原生App一样的自动适配深浅模式效果。
-![](https://upload-images.jianshu.io/upload_images/3265534-e4ff4942744c6692.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![](https://upload-images.jianshu.io/upload_images/3265534-e4ff4942744c6692.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 [Dark Mode Support in WebKit](https://webkit.org/blog/8840/dark-mode-support-in-webkit/)
 ***
@@ -401,9 +403,6 @@ self.view.backgroundColor = [UIColor qy_setColorWithAny:[UIColor whiteColor] dar
 
 [使用 QMUITheme 实现换肤并适配 iOS 13 Dark Mode
 ](https://github.com/Tencent/QMUI_iOS/wiki/%E4%BD%BF%E7%94%A8-QMUITheme-%E5%AE%9E%E7%8E%B0%E6%8D%A2%E8%82%A4%E5%B9%B6%E9%80%82%E9%85%8D-iOS-13-Dark-Mode)
-
-
-## Requirements
 
 ## Installation
 
